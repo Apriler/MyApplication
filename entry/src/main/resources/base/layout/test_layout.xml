@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:background_element="#0ff"
+                   ohos:orientation="vertical"
+        ohos:24_hour_mode="true"
+        ohos:padding="32">
+    <Text ohos:id="$+id:tv_hw"
+          ohos:width="match_parent"
+          ohos:height="match_content"
+          ohos:text_color="#000000"
+          ohos:text="Hello World"
+          ohos:text_alignment="center"
+          ohos:layout_alignment="vertical_center"
+          ohos:text_size="50"/>
+    <Text ohos:id="$+id:tv_hm"
+          ohos:height="match_content"
+          ohos:width="match_parent"
+          ohos:text_alignment="center"
+          ohos:text_color="#000000"
+          ohos:text="Hello HarmonyOS"
+          ohos:text_size="50"/>
+
+</DirectionalLayout>
